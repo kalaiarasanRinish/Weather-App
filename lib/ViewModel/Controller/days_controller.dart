@@ -26,6 +26,7 @@ class DaysController extends GetxController
 
   String getImage(int index)
   {
+    //yuvan
     Utilities utilities =Utilities();
     return utilities.imageMap[homeController.model.value!.days![index].conditions]==null
         ? ImageAssets.nightStarRain
